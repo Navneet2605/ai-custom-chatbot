@@ -1,0 +1,26 @@
+.hover-shadow:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+  }
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 250vh;
+    object-fit: fill;
+    z-index: -1;
+  }
+  .CardsImage{
+    /* width: 150px; */
+    height: 150px;
+    object-fit: cover;
+    /* border-radius: 0.5rem; */
+   
+  }
+
+  .character-img {
+    height: 250px; /* Increase as needed */
+    object-fit: cover; /* Ensures it fills nicely */
+  }
